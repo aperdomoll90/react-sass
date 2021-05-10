@@ -1,0 +1,22 @@
+.services {
+    background-color: $darkblue-color;
+    display: flex;
+    padding: 6em;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+&_item{
+    background-color: $primary-color;
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+
+    &--img{
+        max-width: 150px;
+    }
+
+    &--p{
+        color: $darkblue-color;
+    }
+}
+
+}

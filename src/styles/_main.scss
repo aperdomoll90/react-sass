@@ -1,5 +1,4 @@
-lines (19 sloc)  448 Bytes
-  
+
 // Reset/Normalize CSS
 *,
 *::after,
@@ -9,12 +8,14 @@ lines (19 sloc)  448 Bytes
   box-sizing: inherit;
 }
 
+@import "~bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap');
 
 @import './base/variables';
 @import './components/header';
 @import './components/hero';
 @import './components/footer';
+@import './components/services';
 
 body {
   margin: 0;
